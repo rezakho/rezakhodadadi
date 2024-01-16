@@ -262,7 +262,7 @@ export default defineComponent({
                 <circle v-if="markerFinish.length > 0" :cx="90 * (markerFinish[0].charCodeAt(0) - 64)" :cy="90 * (markerFinish[1].charCodeAt(0) - 64)" r="12" class="finish"/>
             </g>
         </svg>
-        <div v-if="true">
+        <div v-if="false">
             <pre>{{ adjacencyList }}
            </pre>
         </div>
